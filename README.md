@@ -39,15 +39,15 @@ All modules are typed and the implementation is deterministic.
 
 ## The problem: "Invisible architecture and fragmented knowledge""
 
-In many AI, Cloud, and Data teams, especially in finance and regulated
-sectors—teams face a recurring issue: the system architecture is invisible.
+In many AI, Cloud, and Data teams, especially in finance and regulated sectors, 
+teams face a recurring issue: the system architecture is invisible.
 
 Daily reality: microservices evolve, Terraform changes infra, CI/CD pipelines
 shift, data schemas mutate, AI models update. Documentation? Outdated.
 Diagrams? Manual and obsolete. Knowledge? Scattered across Slack, Jira, Git,
 and people’s heads.
 
-The result: onboarding takes months, incidents take hours to debug, compliance
+> The result: onboarding takes months, incidents take hours to debug, compliance
 struggles, and architecture drift goes unnoticed. Even with Kubernetes,
 Terraform, Snowflake, and ML pipelines, teams lack a continuously updated view
 of their systems.
@@ -75,3 +75,4 @@ For regulated industries, this gap is a major source of inefficiency and risk.
 
 
 Check here for dev. mode installation: [DEV INSTALL document](./INSTALL.md)!
+

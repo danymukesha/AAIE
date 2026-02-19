@@ -29,7 +29,7 @@ Usage
 python -m aaie.cli scan /path/to/repo
 
 # API
-python -m uvicorn aaie.api:app --reload
+python -m uvicorn aaie.api:app --reload #currently under-development
 ```
 
 All modules are typed and the implementation is deterministic.

@@ -28,11 +28,11 @@ Usage
 # CLI
 python -m aaie.cli scan /path/to/repo
 
-# API
+# API -- !!! currently under-development !!!
 pip install -r requirements.txt
-python -m uvicorn aaie.api:app --reload # !!! currently under-development !!!
-# at the moment you should be able see the exposed apis on an interactive 
-@ Swagger UI, which Uvicorn's running on http://127.0.0.1:8000
+python -m uvicorn aaie.api:app --reload 
+#at the moment you should be able see the exposed apis on an interactive 
+#Swagger UI, which Uvicorn's running on http://127.0.0.1:8000
 ```
 
 All modules are typed and the implementation is deterministic.
@@ -72,5 +72,6 @@ spend hours debugging cross-service issues. There is no tool that continuously
 analyzes architecture, flags knowledge silos, or detects drift automatically.
 
 For regulated industries, this gap is a major source of inefficiency and risk.
+
 
 Check here for dev. mode installation: [DEV INSTALL document](./INSTALL.md)!

@@ -29,7 +29,10 @@ Usage
 python -m aaie.cli scan /path/to/repo
 
 # API
-python -m uvicorn aaie.api:app --reload #currently under-development
+pip install -r requirements.txt
+python -m uvicorn aaie.api:app --reload # !!! currently under-development !!!
+# at the moment you should be able see the exposed apis on an interactive 
+@ Swagger UI, which Uvicorn's running on http://127.0.0.1:8000
 ```
 
 All modules are typed and the implementation is deterministic.
@@ -62,7 +65,7 @@ I original started with creating a local developer tool that:
 Think of: a “Copilot” for system architecture visibility, focused on
 infrastructure, services, and data flows—not just code.
 
-## Why would this matter the?
+## Why would this matter then?
 
 Currently, engineers manually update diagrams, rely on tribal knowledge, and
 spend hours debugging cross-service issues. There is no tool that continuously

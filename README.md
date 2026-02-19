@@ -72,3 +72,5 @@ spend hours debugging cross-service issues. There is no tool that continuously
 analyzes architecture, flags knowledge silos, or detects drift automatically.
 
 For regulated industries, this gap is a major source of inefficiency and risk.
+
+Check here for dev. mode installation: [DEV INSTALL document](./INSTALLATION.md)!

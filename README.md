@@ -73,4 +73,4 @@ analyzes architecture, flags knowledge silos, or detects drift automatically.
 
 For regulated industries, this gap is a major source of inefficiency and risk.
 
-Check here for dev. mode installation: [DEV INSTALL document](./INSTALLATION.md)!
+Check here for dev. mode installation: [DEV INSTALL document](./INSTALL.md)!

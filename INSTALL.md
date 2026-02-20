@@ -24,3 +24,10 @@ aaie --help
 ```
 
 If successful, the CLI command list will be displayed.
+
+TIPS: after scanning a folder, please clear out the db. 
+this should be fix automativally in the future versions
+
+```
+rm ~/.aaie/aaie.db
+```

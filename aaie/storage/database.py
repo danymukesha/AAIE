@@ -41,11 +41,12 @@ class Database:
             
             conn.execute("""
                 CREATE TABLE IF NOT EXISTS nodes (
-                    id TEXT PRIMARY KEY,
+                    id TEXT NOT NULL,
                     scan_id INTEGER NOT NULL,
                     name TEXT NOT NULL,
                     type TEXT NOT NULL,
                     metadata TEXT,
+                    PRIMARY KEY (scan_id, id),
                     FOREIGN KEY (scan_id) REFERENCES scans(id)
                 )
             """)
